@@ -1,0 +1,32 @@
+.popout_load_file{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 !important;
+    background-color: rgba(0,0,0,.5);
+}
+.pop_load_info{
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+.progress_bar_load{
+    margin-top: 20px;
+}
+.progress_bar_load .articleName{
+    margin-bottom: 10px;
+}
+.avatar_preview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin_add_admin{
+    display: flex;
+    flex-direction: column;
+}

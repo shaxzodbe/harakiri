@@ -1,0 +1,73 @@
+{
+  "name": "mangaApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "vk-miniapps-deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "customize-cra": "^1.0.0",
+    "html-react-parser": "^1.4.0",
+    "react-hot-loader": "^4.13.0",
+    "react-scripts": "^4.0.3"
+  },
+  "dependencies": {
+    "@splidejs/react-splide": "^0.6.5",
+    "@vkontakte/icons": "^1.134.0",
+    "@vkontakte/vk-bridge": "^2.4.8",
+    "@vkontakte/vk-miniapps-deploy": "0.0.25",
+    "@vkontakte/vk-tunnel": "^0.1.0",
+    "@vkontakte/vkjs": "^0.22.1",
+    "@vkontakte/vkui": "^4.21.0",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.1.1",
+    "chalk": "^4.1.0",
+    "crypto-js": "^4.1.1",
+    "eruda": "^2.4.1",
+    "eruda-code": "^2.0.0",
+    "eruda-dom": "^2.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mathjax-full": "^3.2.0",
+    "mathjax-react": "^1.0.6",
+    "optimized-images-loader": "^0.4.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^2.0.0-rc.1",
+    "react-card-slide": "^1.0.13",
+    "react-color": "^2.19.3",
+    "react-color-palette": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-mathjax": "^1.0.1",
+    "react-optimized-image": "^0.4.1",
+    "react-responsive-carousel": "^3.2.21",
+    "react-slick": "^0.28.1",
+    "react-speech-kit": "^3.0.1",
+    "react-virtualized-auto-sizer": "^1.0.6",
+    "react-window": "^1.8.6",
+    "swiper": "^7.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
